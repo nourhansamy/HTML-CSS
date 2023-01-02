@@ -1,0 +1,164 @@
+<html>
+
+<head> </head>
+
+<body>
+    <form action="">
+        <fieldset style="background-color: rgb(150, 31, 31)">
+            <legend style="background-color: rgb(27, 155, 177)">
+                <pre><b>Personal Data</b></pre>
+            </legend>
+            <br />
+            <fieldset style="background-color: rgb(208, 143, 13)">
+                <legend style="
+              background-color: rgb(27, 155, 177);
+              width: 70;
+              height: 60;
+              padding-top: 18;
+            ">
+                    <strong>
+                        <pre>Your Name</pre>
+                    </strong>
+                </legend>
+                <br />
+                <br />
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstName">
+                                    <pre>First Name  :</pre>
+                                </label></td>
+                            <td>
+                                <input type="text" id="firstName" name="firstName" placeholder="ex. Ahmed" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="secondName">
+                                    <pre>Second Name :</pre>
+                                </label></td>
+                            <td>
+                                <input type="text" id="secondName" name="secondName" placeholder="ex.Bahnasy" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br />
+            <br />
+            <table>
+                <tbody>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="phone"><strong>Phone &emsp;&emsp;&emsp;&emsp;&emsp;: </strong></label> -->
+                            <label for="phone"><strong>
+                                    <pre>Phone Number     :</pre>
+                                </strong></label>
+                        </td>
+                        <td>
+                            <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" pattern="[0-9]{11}" />
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="email"><strong>Email &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;: </strong></label> -->
+                            <label for="email"><strong>
+                                    <pre>Email Address    :</pre>
+                                </strong></label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="pass"><strong>Password&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;: </strong></label> -->
+                            <label for="pass"><strong>
+                                    <pre>Password         :</pre>
+                                </strong></label>
+                        </td>
+                        <td>
+                            <input type="password" id="pass" name="password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <label for="confirmPass"><strong>Confirm Password:</strong> -->
+                            <label for="confirmPass"><strong>
+                                    <pre>Confirm Password :</pre>
+                                </strong></label>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="password" id="confirmPass" name="confirmPassword" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br />
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <input type="radio" id="male" name="gender" value="male" /></td>
+                        <td> <label for="male">
+                                <pre>Male</pre>
+                            </label></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="radio" id="female" name="gender" value="female" /></td>
+                        <td> <label for="female">
+                                <pre>Female</pre>
+                            </label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br />
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <input type="checkbox" id="html" name="programmingSkills" value="html" /></td>
+                        <td> <label for="html">
+                                <pre>HTML</pre>
+                            </label></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox" id="css" name="programmingSkills" value="css" /></td>
+                        <td> <label for="css">
+                                <pre>CSS</pre>
+                            </label></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox" id="js" name="programmingSkills" value="js" /></td>
+                        <td> <label for="js">
+                                <pre>JavaScript</pre>
+                            </label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br />
+            <label for="uni"><strong>
+                    <pre>Choose Your University:</pre>
+                </strong></label>
+            <select name="university" id="uni">
+                <optgroup label="Cairo">
+                    <option value="cairoUniversity">Cairo University</option>
+                    <option value="ainShamsUniversity">Ain Shams University</option>
+                    <option value="helwanUniversity">Helwan University</option>
+                </optgroup>
+                <optgroup label="Alex">
+                    <option value="alexUniversity">Alexandria University</option>
+                    <option value="arabAcademy">
+                        Arab Academy for Science, Technology and Maritime Transport
+                    </option>
+                </optgroup>
+                <optgroup></optgroup>
+            </select>
+            <br /><br />
+            <!-- <button type="submit">Submit</button> -->
+            <input type="image" src="images/submitBtn.jpeg" alt="submitBtn" width="70" height="40" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
